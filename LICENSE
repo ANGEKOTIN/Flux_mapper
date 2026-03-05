@@ -1,0 +1,29 @@
+                    GNU GENERAL PUBLIC LICENSE
+                       Version 2, June 1991
+
+ Copyright (C) 2025 KOTIN Ange H.P. <angekotin@gmail.com>
+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License along
+ with this program; if not, write to the Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+---------------------------------------------------------------------------
+
+NOTE : La licence GPL v2 est la licence officielle utilisée par QGIS
+et recommandée pour tous les plugins publiés dans le dépôt officiel QGIS.
+En choisissant la GPL v2, vous garantissez que :
+  - Toute personne peut utiliser, copier et modifier ce plugin librement
+  - Toute version modifiée redistribuée doit rester sous GPL v2
+  - Le code source doit toujours être accessible
+
+Pour plus d'informations : https://www.gnu.org/licenses/old-licenses/gpl-2.0.html

@@ -1,0 +1,34 @@
+[general]
+name=Flux Mapper
+qgisMinimumVersion=3.28
+qgisMaximumVersion=3.99
+description=Génère des cartes de flux courbes (Bézier) avec flèches automatiques, épaisseur proportionnelle au score et gestion des flux bidirectionnels.
+version=2.0.0
+author=KOTIN Ange H.P.
+email=angekotin@gmail.com
+
+about=Flux Mapper est un plugin QGIS permettant de créer des cartes de flux géographiques
+    sous forme de courbes de Bézier entre des localités.
+
+    Il prend en entrée :
+      - Une couche de POINTS représentant les localités
+      - Une couche/table de FLUX avec les champs : origine, destination, type de relation, score, et optionnellement une direction (unidirectionnel / bidirectionnel)
+
+    Il génère automatiquement :
+      - Une ou plusieurs couches de lignes courbes stylisées
+      - Des flèches dont l'épaisseur est proportionnelle au score du flux
+      - Une couleur automatique par type de relation
+      - Une gestion des flux bidirectionnels avec décalage automatique
+
+tracker=https://github.com/angekotin/flux-mapper/issues
+repository=https://github.com/angekotin/flux-mapper
+homepage=https://github.com/angekotin/flux-mapper
+
+license=GPL-2.0-or-later
+hasProcessingProvider=no
+tags=flux, flow map, carte de flux, courbe, bezier, réseau, transport, migration, OD matrix
+category=Analysis
+icon=icons/icon.png
+experimental=False
+deprecated=False
+server=False
